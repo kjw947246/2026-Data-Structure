@@ -21,3 +21,12 @@ print(artists)
 print(artists[1])
 artists.append(77.9)   # 파이썬의 리스트는 실수(실수 뿐만 아닌 다른 타입들 모두 포함)도 앞서 삽입한 문자열들과 같이 담을 수 있다
 print(artists)
+
+#scores = [[99, 100, 98],[100, 91, 100],[89, 92, 87]]
+scores = [
+    [99, 100, 98],
+    [100, 91, 100],
+    [89, 92, 87]
+]
+print(scores)
+print(scores[1][2])
